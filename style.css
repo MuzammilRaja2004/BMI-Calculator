@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+header {
+    background-color: whitesmoke;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.bmi-head {
+    background-color: #2ecc71;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+}
+.bmi-inputs {
+    padding: 1rem;
+}
+.bmi-inputs input {
+    width: 100%;
+    margin: 7px 0 7px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #2ecc71;
+}
+.bmi-btn {
+    padding: 0rem 1rem 0 1rem;
+}
+.bmi-btn input {
+    background-color: #2ecc71;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bmi-range{
+    background-color: #2ecc71;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    
+}

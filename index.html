@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="bmi-head">
+            <p>BMI Calculator</p>
+        </div>
+
+        <div class="bmi-inputs">
+            <label for="weight">Weight:</label>
+            <br>
+            <input type="number" name="weight" id="weight" required placeholder="Weight In KG">
+            <br>
+            <label for="height">Height</label>
+            <br>
+            <input type="number" name="height" id="height" required placeholder="Height In Ft">
+            <br>
+            <label for="bmi-value">bmi-value</label>
+            <br>
+            <input type="text" name="bmi-value" id="bmi-value" placeholder="BMI Calculation">
+        </div>
+
+        <div class="bmi-btn">
+            <input type="button" value="Check BMI" onclick="bmifun()">
+        </div>
+
+        <br>  
+
+        <div class="bmi-range">
+            <p>a healthy BMI range 19 and 25. </p>
+        </div>
+
+    </header>
+
+</body>
+<script src="app.js"></script>
+
+</html>
